@@ -1,0 +1,29 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/**
+* main - print the value of variable n as either +ve, -ve or zero
+*
+* Return: 0 if exited properly, non-zer otherwise
+*/
+
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	{
+		printf("The number %d is positive", n);
+	}
+	else if (n < 0)
+	{
+		printf("The number %d is negative", n);
+	}
+	else
+	{
+		printf("The number %d is zero", n);
+	}
+	return (0);
+}
