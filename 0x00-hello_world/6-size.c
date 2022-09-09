@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - print "program that prints the size of various types on the computer it is compiled and run on"
-
+* main - print "program that prints the size of various types on the computer"
 *
 * Return: 0 if exited properly, non-zer otherwise
-
 */
 int main(void)
 {
