@@ -1,1 +1,1 @@
-creating c programming code using the Betty style
+Write a function that checks for uppercase character
